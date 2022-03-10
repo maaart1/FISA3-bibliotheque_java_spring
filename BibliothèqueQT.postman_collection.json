@@ -1,0 +1,459 @@
+{
+	"info": {
+		"_postman_id": "30844f66-4290-44a3-8942-541b6e6bb6a5",
+		"name": "BibliothèqueQT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllAuteur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/auteurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"auteurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAuteurById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "addMultipleAuteur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/auteurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"auteurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAutheurWithJSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bqt/auteur",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"auteur"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAllAuteur",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "addLivre",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titre\":\"Test Ajout livre\",\n    \"nbPages\":33,\n    \"genre\":\"Roman\",\n    \"image\":\"\",\n    \"auteur\":{},\n    \"bibliotheque\": {\n        \"name\":\"Bibliothèque de Bersée\",\n        \"description\":\"Ouvert du Lundi au Vendredi de 9h à 18h\",\n        \"image\":\"https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/04/27/node_574700/40270507/public/2019/04/27/B9719397253Z.1_20190427111624_000%2BGBDDFRU37.1-0.jpg?itok=7X9Ib3fY1556457546\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addDataInProject",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"titre\": \"Les Confidences d'Arsène Lupin\",\r\n        \"nbPages\": 337,\r\n        \"image\" : \"https://m.media-amazon.com/images/I/51mJe5RRFyL.jpg\",\r\n        \"genre\" : \"Mystère, Détective\",\r\n        \"dateParution\" : \"1913-15-06\",\r\n        \"resume\" : \"Les Confidences d'Arsène Lupin est un recueil de nouvelles de Maurice Leblanc mettant en scène les aventures d'Arsène Lupin, gentleman-cambrioleur.\",\r\n        \"auteur\": {\r\n            \"name\" : \"Maurice Leblanc\",\r\n            \"genre\" : \"Homme\",\r\n            \"dateNaissance\" : \"1864-11-12\",\r\n            \"dateDeces\" : \"1941-06-11\",\r\n            \"image\" : \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Maurice-leblanc.jpg/200px-Maurice-leblanc.jpg\",\r\n            \"nationalite\" : \"Française\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Bersée\",\r\n            \"description\" : \"Ouvert du Lundi au Vendredi de 9h à 18h\",\r\n            \"image\" : \"https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/04/27/node_574700/40270507/public/2019/04/27/B9719397253Z.1_20190427111624_000%2BGBDDFRU37.1-0.jpg?itok=7X9Ib3fY1556457546\"\r\n        }\r\n    },\r\n    {\r\n        \"titre\": \"One Piece TOME 100\",\r\n        \"nbPages\": 209,\r\n        \"image\" : \"https://www.glenat.com/sites/default/files/images/livres/couv/9782344049020-001-T.jpeg\",\r\n        \"genre\" : \"Manga\",\r\n        \"dateParution\" : \"2021-08-12\",\r\n        \"resume\" : \"Celui qui deviendra le roi des pirates\",\r\n        \"auteur\": {\r\n            \"name\" : \"Eiichirō Oda\",\r\n            \"genre\" : \"Homme\",\r\n            \"dateNaissance\" : \"1975-01-01\",\r\n            \"dateDeces\" : \"\",\r\n            \"image\": \"https://analysembti.files.wordpress.com/2018/11/avt_eiichiro-oda_5427.jpg\",\r\n            \"nationalite\": \"Japonais\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Lille\",\r\n            \"description\" : \"Ouvert du Lundi ou Samedi de 8h à 19h\",\r\n            \"image\" : \"https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh\"\r\n        }\r\n    },\r\n    {\r\n        \"titre\": \"Les Misérables\",\r\n        \"nbPages\": 1462,\r\n        \"image\" : \"https://www.glenat.com/sites/default/files/images/livres/couv/9782344043486-001-T.jpeg\",\r\n        \"genre\" : \"Roman\",\r\n        \"dateParution\" : \"1862-01-01\",\r\n        \"resume\" : \"C'est un roman historique, social et philosophique dans lequel on retrouve les idéaux du romantisme et ceux de Victor Hugo concernant la nature humaine.\",\r\n        \"auteur\": {\r\n            \"name\" : \"Victor Hugo\",\r\n            \"genre\" : \"Homme\",\r\n            \"dateNaissance\" : \"1802-02-26\",\r\n            \"dateDeces\" : \"1885-05-22\",\r\n            \"image\" : \"https://www.babelio.com/users/AVT_Victor-Hugo_3841.jpg\",\r\n            \"nationalite\" : \"Française\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Bersée\",\r\n            \"description\" : \"Ouvert du Lundi au Vendredi de 9h à 18h\",\r\n            \"image\" : \"https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/04/27/node_574700/40270507/public/2019/04/27/B9719397253Z.1_20190427111624_000%2BGBDDFRU37.1-0.jpg?itok=7X9Ib3fY1556457546\"\r\n        }\r\n    },\r\n    {\r\n        \"titre\": \"Odes et Ballades\",\r\n        \"nbPages\": 250,\r\n        \"image\" : \"https://images-na.ssl-images-amazon.com/images/I/51H5-QSL-lL._SX346_BO1,204,203,200_.jpg\",\r\n        \"genre\" : \"Poésie\",\r\n        \"dateParution\" : \"1828-01-01\",\r\n        \"resume\" : \"L'inspiration des poèmes est à la fois monarchiste et catholique, bien qu’au cours des éditions successives on trouve de nombreux indices de l'évolution de l'auteur vers le libéralisme politique.\",\r\n        \"auteur\": {\r\n            \"name\" : \"Victor Hugo\",\r\n            \"genre\" : \"Homme\",\r\n            \"dateNaissance\" : \"1802-02-26\",\r\n            \"dateDeces\" : \"1885-05-22\",\r\n            \"image\" : \"https://www.babelio.com/users/AVT_Victor-Hugo_3841.jpg\",\r\n            \"nationalite\" : \"Française\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Valenciennes\",\r\n            \"description\" : \"Ouvert du Lundi au Vendredi de 10h à 20h\",\r\n            \"image\" : \"https://static.actu.fr/uploads/2021/03/25511-210310161114199-0.jpg\"\r\n        }\r\n    },\r\n    {\r\n        \"titre\": \"L'Étranger\",\r\n        \"nbPages\": 123,\r\n        \"image\" : \"https://images-na.ssl-images-amazon.com/images/I/8130inT26AL.jpg\",\r\n        \"genre\" : \"Roman\",\r\n        \"dateParution\" : \"1942-19-05\",\r\n        \"resume\" : \"Le roman met en scène un personnage-narrateur nommé Meursault, vivant à Alger en Algérie française.\",\r\n        \"auteur\": {\r\n            \"name\" : \"Albert Camus\",\r\n            \"genre\" : \"Homme\",\r\n            \"dateNaissance\" : \"1913-22-07\",\r\n            \"dateDeces\" : \"1960-04-01\",\r\n            \"image\" : \"https://images.ladepeche.fr/api/v1/images/view/5e1012958fe56f74c90ac078/large/image.jpg?v=1\",\r\n            \"nationalite\" : \"Française\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Lille\",\r\n            \"description\" : \"Ouvert du Lundi ou Samedi de 8h à 19h\",\r\n            \"image\" : \"https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh\"\r\n        }\r\n    },\r\n    {\r\n        \"titre\": \"La chanson de Roland\",\r\n        \"nbPages\": 160,\r\n        \"image\" : \"https://images-na.ssl-images-amazon.com/images/I/51HT4-Q-n+L._SX345_BO1,204,203,200_.jpg\",\r\n        \"genre\" : \"Roman\",\r\n        \"dateParution\" : \"2010-10-25\",\r\n        \"resume\" : \"Récit épique du XIe siècle, La Chanson de Roland met en scène Roland et Olivier, des héros magnifiques dévoués corps et âme à l'empereur Charlemagne en lutte contre un redoutable ennemi, le Sarrasin Marsile.\",\r\n        \"auteur\": {\r\n            \"name\" : \"Auteur inconnu\",\r\n            \"genre\" : \"Inconnu\",\r\n            \"dateNaissance\" : \"0000-00-00\",\r\n            \"dateDeces\" : \"0000-00-00\",\r\n            \"image\" : \"https://st.depositphotos.com/1898481/3858/i/600/depositphotos_38585251-stock-photo-unnamed.jpg\",\r\n            \"nationalite\" : \"Inconnu\"\r\n        },\r\n        \"bibliotheque\" : {\r\n            \"name\" : \"Bibliothèque de Lille\",\r\n            \"description\" : \"Ouvert du Lundi ou Samedi de 8h à 19h\",\r\n            \"image\" : \"https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh\"\r\n        }\r\n    }\r\n\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/addMultipleLivres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"addMultipleLivres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllLivres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLivreByTitre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/titre/L'Étranger",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"titre",
+						"L'Étranger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLivreByAuteurId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/auteur/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"auteur",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllLivresOfAnAuthorId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getAllLivresOfAnABibliothèque",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/getAllLivresOfABibliotheque/126",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"getAllLivresOfABibliotheque",
+						"126"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteLivreById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAllLivres",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/livres/deleteAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"livres",
+						"deleteAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllBibliotheques",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/bibliotheques",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"bibliotheques"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBibliotheque",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Bibliothéque de Bersée\",\n    \"description\": \"Ouvert du Lundi ou Vendredi\",\n    \"image\": \"https://images.pexels.com/photos/442420/books-shelves-architecture-wood-442420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260\",\n    \"livres\": {}\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bqt/bibliotheques",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"bibliotheques"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAllBibliotheques",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/bibliotheques",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"bibliotheques"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBibliothequeById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "addUtilisateur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\": \"basile\",\r\n    \"mdp\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bqt/utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllUtilisateur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bqt/utilisateurs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"utilisateurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAuteurByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "verifUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"login\": \"basile\",\n    \"mdp\": \"admin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/bqt/utilisateurs/verif",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bqt",
+						"utilisateurs",
+						"verif"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

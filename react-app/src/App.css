@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.componentList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.componentThumbnail {
+  width: 339px;
+  height: 420px;
+  margin-left: 1% !important;
+  margin-top: 1% !important;
+}
+
+.content-card {
+  max-width: 339px;
+  max-height: 420px;
+  background-size:  cover !important;
+  overflow: hidden;
+  /*background-color: #ACB6E5;*/
+  background: cadetblue;
+}
+
+.componentImage{
+  max-width: 339px;
+  max-height: 240px;
+  background-size:  cover !important;
+  overflow: hidden;
+}
+
+.sidenav{
+  transform: translateX(0) !important;
+  background: cadetblue;
+  /*background: #74ebd5;
+  background: -webkit-linear-gradient(to bottom, #ACB6E5, #74ebd5);
+  background: linear-gradient(to bottom, #ACB6E5, #74ebd5);*/
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  min-height: 100vh;
+  margin-left: 310px;
+}
+
+.color {
+  /*background-color: #ACB6E5 !important;*/
+  background: cadetblue !important;
+}
+
+.text-action-card {
+  color: dimgrey !important;
+}
+
+
+
+
+

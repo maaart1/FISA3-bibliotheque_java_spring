@@ -1,0 +1,129 @@
+[
+    {
+        "titre": "Les Confidences d'Arsène Lupin",
+        "nbPages": 337,
+        "image" : "https://m.media-amazon.com/images/I/51mJe5RRFyL.jpg",
+        "genre" : "Mystère, Détective",
+        "dateParution" : "1913-15-06",
+        "resume" : "Les Confidences d'Arsène Lupin est un recueil de nouvelles de Maurice Leblanc mettant en scène les aventures d'Arsène Lupin, gentleman-cambrioleur.",
+        "auteur": {
+            "name" : "Maurice Leblanc",
+            "genre" : "Homme",
+            "dateNaissance" : "1864-11-12",
+            "dateDeces" : "1941-06-11",
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Maurice-leblanc.jpg/200px-Maurice-leblanc.jpg",
+            "nationalite" : "Française"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Bersée",
+            "description" : "Ouvert du Lundi au Vendredi de 9h à 18h",
+            "image" : "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/04/27/node_574700/40270507/public/2019/04/27/B9719397253Z.1_20190427111624_000%2BGBDDFRU37.1-0.jpg?itok=7X9Ib3fY1556457546"
+        }
+    },
+    {
+        "titre": "One Piece TOME 100",
+        "nbPages": 209,
+        "image" : "https://www.glenat.com/sites/default/files/images/livres/couv/9782344049020-001-T.jpeg",
+        "genre" : "Manga",
+        "dateParution" : "2021-08-12",
+        "resume" : "Celui qui deviendra le roi des pirates",
+        "auteur": {
+            "name" : "Eiichirō Oda",
+            "genre" : "Homme",
+            "dateNaissance" : "1975-01-01",
+            "dateDeces" : "",
+            "image": "https://analysembti.files.wordpress.com/2018/11/avt_eiichiro-oda_5427.jpg",
+            "nationalite": "Japonais"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Lille",
+            "description" : "Ouvert du Lundi ou Samedi de 8h à 19h",
+            "image" : "https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh"
+        }
+    },
+    {
+        "titre": "Les Misérables",
+        "nbPages": 1462,
+        "image" : "https://www.glenat.com/sites/default/files/images/livres/couv/9782344043486-001-T.jpeg",
+        "genre" : "Roman",
+        "dateParution" : "1862-01-01",
+        "resume" : "C'est un roman historique, social et philosophique dans lequel on retrouve les idéaux du romantisme et ceux de Victor Hugo concernant la nature humaine.",
+        "auteur": {
+            "name" : "Victor Hugo",
+            "genre" : "Homme",
+            "dateNaissance" : "1802-02-26",
+            "dateDeces" : "1885-05-22",
+            "image" : "https://www.babelio.com/users/AVT_Victor-Hugo_3841.jpg",
+            "nationalite" : "Française"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Bersée",
+            "description" : "Ouvert du Lundi au Vendredi de 9h à 18h",
+            "image" : "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_in_line/2019/04/27/node_574700/40270507/public/2019/04/27/B9719397253Z.1_20190427111624_000%2BGBDDFRU37.1-0.jpg?itok=7X9Ib3fY1556457546"
+        }
+    },
+    {
+        "titre": "Odes et Ballades",
+        "nbPages": 250,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/51H5-QSL-lL._SX346_BO1,204,203,200_.jpg",
+        "genre" : "Poésie",
+        "dateParution" : "1828-01-01",
+        "resume" : "L'inspiration des poèmes est à la fois monarchiste et catholique, bien qu’au cours des éditions successives on trouve de nombreux indices de l'évolution de l'auteur vers le libéralisme politique.",
+        "auteur": {
+            "name" : "Victor Hugo",
+            "genre" : "Homme",
+            "dateNaissance" : "1802-02-26",
+            "dateDeces" : "1885-05-22",
+            "image" : "https://www.babelio.com/users/AVT_Victor-Hugo_3841.jpg",
+            "nationalite" : "Française"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Valenciennes",
+            "description" : "Ouvert du Lundi au Vendredi de 10h à 20h",
+            "image" : "https://static.actu.fr/uploads/2021/03/25511-210310161114199-0.jpg"
+        }
+    },
+    {
+        "titre": "L'Étranger",
+        "nbPages": 123,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/8130inT26AL.jpg",
+        "genre" : "Roman",
+        "dateParution" : "1942-19-05",
+        "resume" : "Le roman met en scène un personnage-narrateur nommé Meursault, vivant à Alger en Algérie française.",
+        "auteur": {
+            "name" : "Albert Camus",
+            "genre" : "Homme",
+            "dateNaissance" : "1913-22-07",
+            "dateDeces" : "1960-04-01",
+            "image" : "https://images.ladepeche.fr/api/v1/images/view/5e1012958fe56f74c90ac078/large/image.jpg?v=1",
+            "nationalite" : "Française"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Lille",
+            "description" : "Ouvert du Lundi ou Samedi de 8h à 19h",
+            "image" : "https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh"
+        }
+    },
+    {
+        "titre": "La chanson de Roland",
+        "nbPages": 160,
+        "image" : "https://images-na.ssl-images-amazon.com/images/I/51HT4-Q-n+L._SX345_BO1,204,203,200_.jpg",
+        "genre" : "Roman",
+        "dateParution" : "2010-10-25",
+        "resume" : "Récit épique du XIe siècle, La Chanson de Roland met en scène Roland et Olivier, des héros magnifiques dévoués corps et âme à l'empereur Charlemagne en lutte contre un redoutable ennemi, le Sarrasin Marsile.",
+        "auteur": {
+            "name" : "Auteur inconnu",
+            "genre" : "Inconnu",
+            "dateNaissance" : "0000-00-00",
+            "dateDeces" : "0000-00-00",
+            "image" : "https://st.depositphotos.com/1898481/3858/i/600/depositphotos_38585251-stock-photo-unnamed.jpg",
+            "nationalite" : "Inconnu"
+        },
+        "bibliotheque" : {
+            "name" : "Bibliothèque de Lille",
+            "description" : "Ouvert du Lundi ou Samedi de 8h à 19h",
+            "image" : "https://www.archimag.com/sites/archimag.com/files/styles/article/public/web_articles/image/LILLAD%20Niveau%201.jpg?itok=-onNR7jh"
+        }
+    }
+
+]
