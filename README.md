@@ -5,7 +5,7 @@
 ### *Prerequisites*
 
 ````bash
-git clone https://gitlab.com/Riqoulouru/bibliotheque-insa-java-spring.git
+git clone https://github.com/maaart1/FISA3-bibliotheque_java_spring.git
 ````
 
 **Don't forget to go in master branch. Not in main branch.**
